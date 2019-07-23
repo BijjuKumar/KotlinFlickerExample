@@ -1,4 +1,4 @@
-package com.example.newyorkarticle
+package com.example.flickr.sample
 
 
 import com.example.flickr.sample.models.ClientRespBean

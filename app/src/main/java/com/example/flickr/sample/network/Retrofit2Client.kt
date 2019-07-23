@@ -1,6 +1,7 @@
-package com.example.newyorkarticle
+package com.example.flickr.sample.network
 
 import android.content.Context
+import com.example.flickr.sample.ApiInterface
 import com.example.flickr.sample.utils.AppConstants
 import okhttp3.OkHttpClient
 import retrofit2.Retrofit

@@ -11,8 +11,8 @@ import com.example.flickr.sample.adapter.PhotosAdapter
 import com.example.flickr.sample.models.ClientRespBean
 import com.example.flickr.sample.models.PhotoItem
 import com.example.flickr.sample.models.PhotoResult
+import com.example.flickr.sample.network.Retrofit2Client
 import com.example.flickr.sample.utils.AppConstants
-import com.example.newyorkarticle.Retrofit2Client
 import com.google.gson.Gson
 import kotlinx.android.synthetic.main.activity_main.*
 import retrofit2.Call
