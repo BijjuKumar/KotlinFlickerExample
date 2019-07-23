@@ -17,8 +17,8 @@ class Retrofit2Client(context: Context) {
 
     init {
         val httpClient = OkHttpClient.Builder()
-        httpClient.connectTimeout(50, TimeUnit.SECONDS)
-        httpClient.readTimeout(50, TimeUnit.SECONDS)
+        httpClient.connectTimeout(AppConstants.NETWORK_TIMEOUT_SEC, TimeUnit.SECONDS)
+        httpClient.readTimeout(AppConstants.NETWORK_TIMEOUT_SEC, TimeUnit.SECONDS)
         httpClient.addInterceptor { chain ->
             val original = chain.request()
             val request = original.newBuilder()
