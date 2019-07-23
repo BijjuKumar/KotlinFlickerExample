@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Kotlin Flicker</string>
+    <string name="no_photos_found">No Photos Found</string>
+    <string name="default_error_message">Something is wrong</string>
+    <string name="network_error">Network issue</string>
+    <string name="cd_image_to_be_displayed">Image Content</string>
+    <string name="no_more_photos_found">No more photos to load</string>
+</resources>
